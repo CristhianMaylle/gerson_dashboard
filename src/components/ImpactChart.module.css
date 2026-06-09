@@ -1,0 +1,256 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  overflow-y: auto;
+  padding-bottom: 8px;
+}
+
+.dimHeader {
+  color: #fff;
+  font-weight: 700;
+  font-size: 11px;
+  text-align: center;
+  padding: 8px 10px;
+  letter-spacing: 0.4px;
+  flex-shrink: 0;
+  line-height: 1.3;
+}
+
+.indCard {
+  border-left: 4px solid;
+  padding: 7px 10px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.indNombre {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 5px;
+}
+
+.indMeta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.geoLabel { font-size: 11px; color: #64748b; }
+
+.fuenteBadge {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 10px;
+}
+.real { background: #dcfce7; color: #166534; }
+.sim  { background: #fef9c3; color: #854d0e; }
+
+/* Promedio principal */
+.promedioCard {
+  background: #f8fafc;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.promedioLabel {
+  font-size: 10px;
+  font-weight: 700;
+  color: #64748b;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.promedioValor {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.promedioMax {
+  font-size: 18px;
+  color: #94a3b8;
+}
+
+.promedioMeta {
+  font-size: 11px;
+  color: #94a3b8;
+}
+
+/* Gráfico */
+.chartBox {
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 8px 4px 4px;
+  background: #fff;
+  flex-shrink: 0;
+  /* Ancho explícito para que ResponsiveContainer calcule correctamente */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Wrapper aislado del CSS de Leaflet */
+.rechartWrapper {
+  width: 100%;
+  height: 230px;
+  position: relative;
+  /* Neutraliza reglas globales de SVG que impone Leaflet */
+}
+
+/* Restablece el SVG de Recharts — Leaflet fuerza svg { width:14px } globalmente */
+.rechartWrapper svg,
+.rechartWrapper svg.recharts-surface {
+  width: auto !important;
+  height: auto !important;
+  overflow: visible !important;
+  position: static !important;
+}
+
+.chartInner {
+  width: 100%;
+  height: 220px;
+  position: relative;
+}
+
+.chartInner svg {
+  width: auto !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.chartTitle {
+  font-size: 11px;
+  font-weight: 600;
+  color: #475569;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.chartRealTag {
+  font-size: 10px;
+  color: #15803d;
+  font-weight: 700;
+}
+
+.chartMeta {
+  font-size: 10px;
+  color: #94a3b8;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.loading {
+  text-align: center;
+  padding: 30px 0;
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+.empty {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #94a3b8;
+  padding: 40px 16px;
+}
+.empty span { font-size: 36px; }
+.empty p    { font-size: 13px; margin: 0; }
+
+.sinDatos {
+  text-align: center;
+  padding: 20px 12px;
+  background: #fefce8;
+  border: 1px solid #fde047;
+  border-radius: 6px;
+}
+.sinDatosIcon { font-size: 28px; margin-bottom: 6px; }
+.sinDatos p     { font-size: 12px; font-weight: 600; color: #854d0e; margin: 0 0 4px; }
+.sinDatos small { font-size: 11px; color: #92400e; }
+
+/* Tabla preguntas */
+.pregTable {
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.pregTableHeader {
+  display: grid;
+  grid-template-columns: 40px 1fr 50px 32px;
+  background: #1d4ed8;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 5px 8px;
+  gap: 4px;
+}
+
+.pregTableRow {
+  display: grid;
+  grid-template-columns: 40px 1fr 50px 32px;
+  padding: 5px 8px;
+  gap: 4px;
+  border-bottom: 1px solid #f1f5f9;
+  align-items: start;
+  font-size: 10.5px;
+}
+
+.pregTableRow:nth-child(even) { background: #f8fafc; }
+.pregTableRow:last-child { border-bottom: none; }
+
+.pregCodigo  { font-weight: 700; font-size: 10px; }
+.pregTexto   { color: #374151; line-height: 1.3; }
+.pregPromedio{ font-weight: 700; color: #1e3a8a; text-align: right; }
+.pregN       { color: #94a3b8; text-align: right; }
+
+/* Likert */
+.likertCard { border-radius: 6px; overflow: hidden; border: 1px solid #cbd5e1; flex-shrink: 0; }
+.likertHeader { background: #1d4ed8; color: #fff; font-size: 12px; font-weight: 700; text-align: center; padding: 8px 12px; }
+.likertBody   { background: #fefce8; padding: 10px 16px; display: flex; flex-direction: column; gap: 3px; }
+.likertItem   { font-size: 12px; color: #374151; line-height: 1.6; }
+.likertNum    { font-weight: 700; color: #1d4ed8; }
+
+/* Botones */
+.buttons { display: flex; flex-direction: column; gap: 8px; flex-shrink: 0; }
+
+.btnExport {
+  background: #6b7280; color: #fff; border: none; border-radius: 6px;
+  padding: 11px 12px; font-size: 13px; font-weight: 600; cursor: pointer;
+  transition: filter 0.15s; text-align: center;
+}
+.btnExport:hover:not(:disabled) { filter: brightness(0.9); }
+.btnExport:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.btnCuest {
+  background: #1d4ed8; color: #fff; border: none; border-radius: 6px;
+  padding: 11px 12px; font-size: 13px; font-weight: 600; cursor: pointer;
+  transition: filter 0.15s; text-align: center;
+}
+.btnCuest:hover { filter: brightness(1.12); }
+
+.tooltip {
+  background: rgba(255,255,255,0.98); border: 1px solid #e2e8f0;
+  border-radius: 6px; padding: 8px 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.tooltipLabel { font-size: 11px; font-weight: 700; color: #1e3a8a; margin-bottom: 3px; }

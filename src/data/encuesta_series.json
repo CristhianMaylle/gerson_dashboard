@@ -1,0 +1,331 @@
+{
+  "fechas": [
+    "May. 2026"
+  ],
+  "desde": "May. 2026",
+  "hasta": "May. 2026",
+  "n": 64,
+  "geoReal": {
+    "departamento": "Cajamarca",
+    "provincia": "Cutervo",
+    "distrito": "La Ramada",
+    "centroPoblado": "Corralcucho"
+  },
+  "indicadores": {
+    "SOC_1": {
+      "preguntas": [
+        {
+          "codigo": "P07",
+          "texto": "?El agua para consumo humano proporcionada por el proyecto implementado ha ayuda",
+          "promedio": 4.77,
+          "n": 64,
+          "valores": [
+            4.77
+          ]
+        },
+        {
+          "codigo": "P08",
+          "texto": "?Cree que ahora es m?s f?cil conseguir agua para consumo humano para su familia ",
+          "promedio": 4.7,
+          "n": 64,
+          "valores": [
+            4.7
+          ]
+        },
+        {
+          "codigo": "P09",
+          "texto": "?El sistema de saneamiento evita que las excretas est?n al aire libre o en conta",
+          "promedio": 3.92,
+          "n": 64,
+          "valores": [
+            3.92
+          ]
+        },
+        {
+          "codigo": "P10",
+          "texto": "?El agua suministrada por el sistema est? libre de contaminaci?n desde la captac",
+          "promedio": 5.0,
+          "n": 64,
+          "valores": [
+            5.0
+          ]
+        }
+      ],
+      "promedioTotal": 4.6
+    },
+    "SOC_2": {
+      "preguntas": [
+        {
+          "codigo": "P11",
+          "texto": "?Luego de la implementaci?n del proyecto, los casos de diarrea en ni?os menores ",
+          "promedio": 5.0,
+          "n": 64,
+          "valores": [
+            5.0
+          ]
+        },
+        {
+          "codigo": "P12",
+          "texto": "?Ha notado que las personas en su comunidad se enferman menos gracias a que el a",
+          "promedio": 5.0,
+          "n": 64,
+          "valores": [
+            5.0
+          ]
+        },
+        {
+          "codigo": "P13",
+          "texto": "?El proyecto de saneamiento implementado, ha ayudado a reducir la cantidad de en",
+          "promedio": 3.97,
+          "n": 64,
+          "valores": [
+            3.97
+          ]
+        },
+        {
+          "codigo": "P14",
+          "texto": "?La calidad del agua proporcionada le genera total confianza para su uso en el a",
+          "promedio": 5.0,
+          "n": 64,
+          "valores": [
+            5.0
+          ]
+        }
+      ],
+      "promedioTotal": 4.74
+    },
+    "SOC_3": {
+      "preguntas": [
+        {
+          "codigo": "P15",
+          "texto": "?El proyecto ha motivado a la comunidad a trabajar junta para cuidar el sistema ",
+          "promedio": 5.0,
+          "n": 64,
+          "valores": [
+            5.0
+          ]
+        },
+        {
+          "codigo": "P16",
+          "texto": "?Ahora la gente en su comunidad tiene m?s conciencia sobre la importancia de lav",
+          "promedio": 5.0,
+          "n": 64,
+          "valores": [
+            5.0
+          ]
+        }
+      ],
+      "promedioTotal": 5.0
+    },
+    "ECO_1": {
+      "preguntas": [
+        {
+          "codigo": "P17",
+          "texto": "?El proyecto implementado ha generado mayor ingreso econ?mico, ya sea en fechas ",
+          "promedio": 2.94,
+          "n": 64,
+          "valores": [
+            2.94
+          ]
+        },
+        {
+          "codigo": "P18",
+          "texto": "?El acceso a agua potable ha mejorado las oportunidades econ?micas, como la aper",
+          "promedio": 2.72,
+          "n": 64,
+          "valores": [
+            2.72
+          ]
+        },
+        {
+          "codigo": "P19",
+          "texto": "?El sistema de saneamiento ha permitido que las familias gasten menos tiempo en ",
+          "promedio": 5.0,
+          "n": 64,
+          "valores": [
+            5.0
+          ]
+        }
+      ],
+      "promedioTotal": 3.55
+    },
+    "ECO_2": {
+      "preguntas": [
+        {
+          "codigo": "P20",
+          "texto": "?Su familia gasta menos dinero en atenci?n m?dica debido a enfermedades relacion",
+          "promedio": 4.88,
+          "n": 64,
+          "valores": [
+            4.88
+          ]
+        },
+        {
+          "codigo": "P21",
+          "texto": "?Ha disminuido el n?mero de visitas al centro de salud por enfermedades relacion",
+          "promedio": 4.94,
+          "n": 64,
+          "valores": [
+            4.94
+          ]
+        },
+        {
+          "codigo": "P22",
+          "texto": "?El acceso a agua de consumo humano ha permitido que su familia ahorre dinero en",
+          "promedio": 4.95,
+          "n": 64,
+          "valores": [
+            4.95
+          ]
+        },
+        {
+          "codigo": "P23",
+          "texto": "?El sistema de saneamiento ha ayudado a que se use productos de limpieza o desin",
+          "promedio": 4.86,
+          "n": 64,
+          "valores": [
+            4.86
+          ]
+        }
+      ],
+      "promedioTotal": 4.91
+    },
+    "ECO_3": {
+      "preguntas": [
+        {
+          "codigo": "P24",
+          "texto": "?Los ni?os asisten m?s seguido a clases porque ya no se enferman frecuentemente?",
+          "promedio": 5.0,
+          "n": 64,
+          "valores": [
+            5.0
+          ]
+        },
+        {
+          "codigo": "P25",
+          "texto": "?El sistema de saneamiento ha reducido la carga de trabajo dom?stico de las muje",
+          "promedio": 5.0,
+          "n": 64,
+          "valores": [
+            5.0
+          ]
+        },
+        {
+          "codigo": "P26",
+          "texto": "?El acceso domiciliario al agua ha reducido el tiempo que ni?os y adolescentes d",
+          "promedio": 5.0,
+          "n": 64,
+          "valores": [
+            5.0
+          ]
+        },
+        {
+          "codigo": "P27",
+          "texto": "?Ha observado un aumento en el inter?s y motivaci?n de los ni?os por la educaci?",
+          "promedio": 5.0,
+          "n": 64,
+          "valores": [
+            5.0
+          ]
+        }
+      ],
+      "promedioTotal": 5.0
+    },
+    "TEC_1": {
+      "preguntas": [
+        {
+          "codigo": "P28",
+          "texto": "?El sistema de agua potable garantiza un suministro continuo durante las 24 hora",
+          "promedio": 4.05,
+          "n": 64,
+          "valores": [
+            4.05
+          ]
+        },
+        {
+          "codigo": "P29",
+          "texto": "?Cuentan con suficientes medidas preventivas para evitar fallas o colapsos del s",
+          "promedio": 4.97,
+          "n": 64,
+          "valores": [
+            4.97
+          ]
+        }
+      ],
+      "promedioTotal": 4.51
+    },
+    "TEC_2": {
+      "preguntas": [
+        {
+          "codigo": "P30",
+          "texto": "?La JASS realiza mantenimiento preventivo?",
+          "promedio": 5.0,
+          "n": 64,
+          "valores": [
+            5.0
+          ]
+        },
+        {
+          "codigo": "P31",
+          "texto": "?La comunidad paga una cuota familiar para operar y mantener el sistema?",
+          "promedio": 5.0,
+          "n": 64,
+          "valores": [
+            5.0
+          ]
+        },
+        {
+          "codigo": "P32",
+          "texto": "?El sistema sigue funcionando en ?pocas de sequ?a o en temporadas de lluvia?",
+          "promedio": 3.2,
+          "n": 64,
+          "valores": [
+            3.2
+          ]
+        },
+        {
+          "codigo": "P33",
+          "texto": "?Se cuenta con suficientes herramientas y recursos para mantener el sistema de s",
+          "promedio": 4.94,
+          "n": 64,
+          "valores": [
+            4.94
+          ]
+        }
+      ],
+      "promedioTotal": 4.54
+    },
+    "TEC_3": {
+      "preguntas": [
+        {
+          "codigo": "P07",
+          "texto": "?El agua para consumo humano proporcionada por el proyecto implementado ha ayuda",
+          "promedio": 4.77,
+          "n": 64,
+          "valores": [
+            4.77
+          ]
+        },
+        {
+          "codigo": "P08",
+          "texto": "?Cree que ahora es m?s f?cil conseguir agua para consumo humano para su familia ",
+          "promedio": 4.7,
+          "n": 64,
+          "valores": [
+            4.7
+          ]
+        },
+        {
+          "codigo": "P09",
+          "texto": "?El sistema de saneamiento evita que las excretas est?n al aire libre o en conta",
+          "promedio": 3.92,
+          "n": 64,
+          "valores": [
+            3.92
+          ]
+        }
+      ],
+      "promedioTotal": 4.46
+    }
+  }
+}

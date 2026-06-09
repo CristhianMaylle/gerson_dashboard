@@ -1,0 +1,76 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.title {
+  background: #1a3a8f;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: left;
+  padding: 8px 12px;
+  letter-spacing: 0.4px;
+  margin-bottom: 2px;
+}
+
+.row {
+  border-bottom: 1px solid #dde3f0;
+}
+
+.selectWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.select {
+  width: 100%;
+  appearance: none;
+  -webkit-appearance: none;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 9px 32px 9px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #1e293b;
+  cursor: pointer;
+  outline: none;
+}
+
+.select:disabled {
+  color: #94a3b8;
+  cursor: not-allowed;
+  background: #f8fafc;
+}
+
+.select:not(:disabled):hover {
+  background: #f0f4ff;
+}
+
+.arrow {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 14px;
+  color: #64748b;
+}
+
+/* Badge "N reales" en el selector de Caserío */
+.badge {
+  position: absolute;
+  top: 5px;
+  right: 28px;
+  background: #7c3aed;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: 8px;
+  pointer-events: none;
+  z-index: 1;
+  white-space: nowrap;
+}

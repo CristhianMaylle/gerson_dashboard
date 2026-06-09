@@ -1,0 +1,48 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  background: #f1f5f9;
+  overflow: hidden;
+}
+
+/* Panel izquierdo */
+.leftPanel {
+  flex: 0 0 210px;
+  width: 210px;
+  min-width: 210px;
+  max-width: 210px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-right: 1px solid #cbd5e1;
+  box-shadow: 2px 0 6px rgba(0,0,0,0.06);
+  height: 100%;
+}
+
+/* Mapa central */
+.mapPanel {
+  flex: 1 1 0;
+  min-width: 0;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+/* Panel derecho */
+.rightPanel {
+  flex: 0 0 360px;
+  width: 360px;
+  min-width: 360px;
+  max-width: 360px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  border-left: 1px solid #cbd5e1;
+  box-shadow: -2px 0 6px rgba(0,0,0,0.06);
+  padding: 0 0 12px 0;
+  height: 100%;
+}

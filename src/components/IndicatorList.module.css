@@ -1,0 +1,67 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+.title {
+  background: #1a3a8f;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: left;
+  padding: 8px 12px;
+  letter-spacing: 0.4px;
+  flex-shrink: 0;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 9px 12px;
+  border-bottom: 1px solid #e2e8f0;
+  cursor: pointer;
+  transition: background 0.12s;
+}
+
+.item:hover {
+  background: #eef2ff;
+}
+
+.item.active {
+  background: #1a3a8f;
+}
+
+.item.active .num {
+  color: #bfdbfe;
+}
+
+.item.active .nombre {
+  color: #fff;
+  font-weight: 600;
+}
+
+.num {
+  font-size: 11px;
+  font-weight: 700;
+  color: #1a3a8f;
+  min-width: 16px;
+  line-height: 1.5;
+  flex-shrink: 0;
+}
+
+.nombre {
+  font-size: 11.5px;
+  color: #334155;
+  line-height: 1.4;
+}

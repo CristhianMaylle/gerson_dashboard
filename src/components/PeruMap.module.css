@@ -1,0 +1,100 @@
+.mapWrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Badge de contexto geográfico */
+/* Badge datos reales */
+.realBadge {
+  position: absolute;
+  top: 42px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background: rgba(21, 128, 61, 0.92);
+  border: 2px solid #fbbf24;
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(21,128,61,0.3);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.nivelBadge {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background: rgba(30, 58, 138, 0.90);
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 5px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+/* Leyenda estilo DATASS */
+.legend {
+  position: absolute;
+  bottom: 28px;
+  left: 10px;
+  background: rgba(255,255,255,0.97);
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 10px 12px;
+  z-index: 1000;
+  font-size: 11px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+  min-width: 160px;
+}
+
+.legendTitle {
+  font-weight: 700;
+  color: #1e293b;
+  font-size: 12px;
+  margin-bottom: 7px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+  color: #374151;
+  font-size: 11px;
+}
+
+.legendColor {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,0.15);
+  flex-shrink: 0;
+}
+
+.legendDot {
+  display: inline-block;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255,255,255,0.9);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+  flex-shrink: 0;
+}
+
+.legendSep {
+  height: 1px;
+  background: #e2e8f0;
+  margin: 5px 0;
+}
